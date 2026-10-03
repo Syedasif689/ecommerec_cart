@@ -4,6 +4,11 @@ A backend REST API for managing products and shopping carts, developed using **J
 
 This project implements core e-commerce cart functionality such as adding products, updating quantities, removing cart items, calculating subtotals and totals, and validating product stock.
 
+## Internship Details
+
+**Intern ID:** CITS9357
+**Task:** Task 1 — E-Commerce Cart Logic
+
 ## Features
 
 * Product listing and product lookup
@@ -49,7 +54,7 @@ Repository Layer
 MySQL Database
 ```
 
-### Main packages
+### Main Packages
 
 ```text
 com.codtech.ecommerce
@@ -107,13 +112,13 @@ Product 1 ─────── * CartItem * ─────── 1 Cart
 
 ### Products
 
-#### Get all products
+#### Get All Products
 
 ```http
 GET /api/products
 ```
 
-#### Get product by ID
+#### Get Product by ID
 
 ```http
 GET /api/products/{productId}
@@ -129,7 +134,7 @@ GET /api/products/1
 
 ### Cart
 
-#### Add product to cart
+#### Add Product to Cart
 
 ```http
 POST /api/cart/add
@@ -145,7 +150,7 @@ Request:
 }
 ```
 
-#### Get customer cart
+#### Get Customer Cart
 
 ```http
 GET /api/cart/{customerId}
@@ -157,7 +162,7 @@ Example:
 GET /api/cart/customer001
 ```
 
-#### Update cart item
+#### Update Cart Item
 
 ```http
 PUT /api/cart/items/{cartItemId}
@@ -171,7 +176,7 @@ Request:
 }
 ```
 
-#### Remove cart item
+#### Remove Cart Item
 
 ```http
 DELETE /api/cart/items/{cartItemId}
@@ -221,7 +226,7 @@ Example stock validation:
 
 ```text
 Requested quantity: 11
-Available stock: 10
+Available quantity: 10
 
 Result: 400 Bad Request
 ```
@@ -240,14 +245,14 @@ The project includes sample products through `data.sql`:
 
 ## Local Setup
 
-### 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Syedasif689/ecommerec_cart.git
 cd ecommerec_cart
 ```
 
-### 2. Create the MySQL database
+### 2. Create the MySQL Database
 
 Create a database named:
 
@@ -273,7 +278,7 @@ Set your own MySQL username and password.
 
 **Do not commit your real database password to GitHub.**
 
-### 4. Run the application
+### 4. Run the Application
 
 Using the Maven wrapper:
 
@@ -314,5 +319,7 @@ It demonstrates REST API development, database integration, entity relationships
 ## Author
 
 **Syed Asif**
+
+**Intern ID:** CITS9357
 
 GitHub: `Syedasif689`
