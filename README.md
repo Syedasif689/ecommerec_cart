@@ -7,6 +7,7 @@ This project implements core e-commerce cart functionality such as adding produc
 ## Internship Details
 
 **Intern ID:** CITS9357
+
 **Task:** Task 1 — E-Commerce Cart Logic
 
 ## Features
